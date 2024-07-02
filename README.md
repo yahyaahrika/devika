@@ -83,13 +83,21 @@ To install Devika, follow these steps:
    ```
 3. Create a virtual environment and install the required dependencies (you can use any virtual environment manager):
    ```bash
+
+   # On macOS and Linux.
    uv venv
    
-   # On macOS and Linux.
    source .venv/bin/activate
 
-   # On Windows.
-   .venv\Scripts\activate
+   # On Windows.  
+   ( if there is any error VS  code : select python select interpreteur : path python.exe)
+   .\venv\Scripts\Activate.ps1
+   
+   or
+
+  .venv\Scripts\activate
+   
+   
 
    uv pip install -r requirements.txt
    ```
